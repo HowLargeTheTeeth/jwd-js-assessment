@@ -5,6 +5,40 @@
     box-sizing: border-box;
 }
 
-p {
-   color: #c8d9df;
+h2 {
+    color: white;
+}
+
+#timeDiv {
+    color: white;
+}
+
+.question {
+    color: white;
+}
+
+#start {
+   display: flex;
+   justify-content: center;
 } 
+
+#firstCard {
+    background-color: #ffffff;
+    border: #ffffff90 10px solid !important;
+}
+
+#button-wrap {
+    display: flex;
+    justify-content: center !important;
+}
+
+body {
+    background-image: url('../images/juskteez-vu-TIrXot28Znc-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#score {
+    color: white;
+}

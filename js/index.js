@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let quizDisplay = '';
     quizArray.map((quizItem, index) => {
       quizDisplay += `<ul class="list-group">
-                    Q - ${quizItem.q}
+                    <p class="question"> Q - ${quizItem.q}</p>
                     <li class="list-group-item mt-2" id="li_${index}_0">
                       <input class="disable" type="radio" name="radio${index}" id="radio_${index}_0"> 
                       ${quizItem.o[0]}
