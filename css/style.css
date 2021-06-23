@@ -23,8 +23,10 @@ h2 {
 } 
 
 #firstCard {
-    background-color: #ffffff;
-    border: #ffffff90 10px solid !important;
+    box-sizing: content-box;
+    background-color: #b1cddd;
+    border: #ffffff40 10px solid;
+  
 }
 
 #button-wrap {
